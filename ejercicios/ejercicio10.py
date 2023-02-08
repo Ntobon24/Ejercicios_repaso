@@ -15,5 +15,5 @@ def factorial_(numero):
         return 1
     return numero * factorial(numero-1)
 
-resultado= factorial(valor)
+resultado = factorial(valor)
 print(f"El factorial de {valor} es {resultado}")
